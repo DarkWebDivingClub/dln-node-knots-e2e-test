@@ -1,12 +1,12 @@
 [package]
-name = "dln-node-knots-e2e"
+name = "dln-node-knots-e2e-test"
 version = "0.1.0"
 edition = "2021"
 license = "GPL-3.0-only"
 description = "End-to-end scenarios for dln-node against a Bitcoin Knots chain, including across the BLAKE2b fork."
 
 [dependencies]
-dln-e2e-harness = { git = "https://github.com/DarkWebDivingClub/diamond-x-e2e.git", branch = "master" }
+dln-e2e-harness = { git = "https://github.com/DarkWebDivingClub/diamond-x-e2e-test.git", branch = "master" }
 
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "process", "signal", "time", "io-util"] }
 anyhow = "1"
