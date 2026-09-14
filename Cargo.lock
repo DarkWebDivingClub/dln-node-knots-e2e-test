@@ -662,10 +662,11 @@ dependencies = [
 [[package]]
 name = "dln-e2e-harness"
 version = "0.1.0"
-source = "git+https://github.com/DarkWebDivingClub/diamond-x-e2e-test.git?branch=master#b1725f35520059eddbf41641a69f0667c8997873"
+source = "git+https://github.com/DarkWebDivingClub/diamond-x-e2e-test.git?branch=master#e0a395b49f1a7e489dded12707151183123123ba"
 dependencies = [
  "anyhow",
  "hex",
+ "nostr-ln",
  "nostr-sdk",
  "nwc",
  "reqwest",
@@ -1559,6 +1560,28 @@ version = "0.44.0"
 source = "git+https://github.com/dukeh3/nostr.git?rev=9ac9adc2#9ac9adc2fbd8cbdb0767d22f26b183d65bba71f4"
 dependencies = [
  "nostr",
+]
+
+[[package]]
+name = "nostr-ln"
+version = "0.1.0"
+source = "git+https://github.com/DarkWebDivingClub/nostr-ln.git?branch=master#bce5497318b3a68ad258723198e0d9d855d213a1"
+dependencies = [
+ "nostr",
+ "nostr-ln-macros",
+ "serde",
+ "serde_json",
+ "tracing",
+]
+
+[[package]]
+name = "nostr-ln-macros"
+version = "0.1.0"
+source = "git+https://github.com/DarkWebDivingClub/nostr-ln.git?branch=master#bce5497318b3a68ad258723198e0d9d855d213a1"
+dependencies = [
+ "proc-macro2",
+ "quote",
+ "syn 2.0.119",
 ]
 
 [[package]]
