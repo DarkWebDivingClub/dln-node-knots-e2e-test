@@ -662,7 +662,7 @@ dependencies = [
 [[package]]
 name = "dln-e2e-harness"
 version = "0.1.0"
-source = "git+https://github.com/DarkWebDivingClub/diamond-x-e2e-test.git?branch=master#03136542ff3c143f137da7fc74a11bfbb40f070b"
+source = "git+https://github.com/DarkWebDivingClub/diamond-x-e2e-test.git?branch=master#1e8c34c60c798f5952f686fcadac1af24238dd58"
 dependencies = [
  "anyhow",
  "hex",
